@@ -1,5 +1,5 @@
-var newHeight = 20;
-var newWidth = 20;
+var newHeight = 45;
+var newWidth = 45;
 //setup function executes once
 function setup(){
     createCanvas(600,400);
@@ -8,10 +8,11 @@ function setup(){
 
 //draw functions loops forever
 function draw(){
-    if(mouseIsPressed){
+     if(mouseIsPressed){
  noStroke();
-fill(55,114,85);
+fill(66,244,235);
  ellipse(mouseX,mouseY,newWidth,newHeight);
+
 
     }
    
